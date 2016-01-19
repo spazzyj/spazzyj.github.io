@@ -10,9 +10,9 @@ var vid3;
 var vid4;
 var theta = 0;
 
-function preload() {
-  mySound = loadSound('assets/shell.m4a');
-}
+// function preload() {
+//   mySound = loadSound('assets/shell.m4a');
+// }
 
 function setup() {
 createCanvas(windowWidth,windowHeight, WEBGL);
@@ -35,9 +35,9 @@ vid4.loop();
 vid4.hide();
 
 //mySound.setVolume(0.1);
-mySound.play();
-mySound.loop();
-};
+// mySound.play();
+// mySound.loop();
+// };
 
 function draw() {
 
