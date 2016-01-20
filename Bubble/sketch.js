@@ -37,7 +37,8 @@ vid4.hide();
 //mySound.setVolume(0.1);
 // mySound.play();
 // mySound.loop();
-// };
+
+};
 
 function draw() {
 
