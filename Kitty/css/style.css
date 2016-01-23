@@ -1,0 +1,32 @@
+body{
+  background: #F5EBEB;
+}
+
+.food{
+  position: relative;
+  float: left;
+  margin: 50px;
+  height: 70px;
+  width: auto;
+}
+
+.food img{
+  width: auto;
+  height: 100%;
+}
+
+.food:hover{
+  background-color: #E7D4D4;
+}
+
+.cat{
+  margin: 100px auto;
+  top: 200px;
+  height: 90px;
+  width: 83px;
+}
+
+.cat img{
+  width: 100%;
+  height: auto;
+}
