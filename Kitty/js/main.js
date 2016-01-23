@@ -5,12 +5,25 @@ $(document).ready(function(){
   // });
 
   $('.food').click(function() {
+    $(this).hide();
     $('.cat').animate({
       width: "+=50px",
-      // width: $(this).width() + '200px',
     });
 
   });
+
+  $('.cat').click(function() {
+    $('.food').show();
+    $('.cat').animate({
+      width: "83px",
+    });
+
+  });
+
+
+
+
+
 
 // .animate( properties [, duration ] [, easing ] [, complete ] )
 
